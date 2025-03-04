@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FurnFest</title>
+    <link rel="Stylesheet" href="ContactUsStylesheet.css"> 
+    
+</head>
+<body>
+    <header>
+        <h1>FurnFest</h1>
+    </header>
+    <nav>
+        <a href="HTML LCA Home 1.html">Home</a>
+        <a href="HTML LCA 1 About Us.html">About Us</a>
+        <a href="HTML LCA 1 Contact Us.html">Contact Us</a>
+    </nav>
+<body>
+    <h2 style="padding-left: 6rem;"> Need a furniture solution? Fill the form below.</h2>
+
+    <div class="container">
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="date">Preferred Contact Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <label>How did you hear about us?</label>
+            <input type="radio" id="social" name="source" value="Social Media">
+            <label for="social">Social Media</label>
+            <input type="radio" id="friend" name="source" value="Friend">
+            <label for="friend">Friend</label>
+            <input type="radio" id="search" name="source" value="Search Engine">
+            <label for="search">Search Engine</label>
+            
+            <label for="furniture">What type of furniture are you looking for?</label>
+            <select id="furniture" name="furniture">
+                <option value="Sofa">Sofa</option>
+                <option value="Table">Table</option>
+                <option value="Chair">Chair</option>
+                <option value="Bed">Bed</option>
+            </select>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="50">
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
